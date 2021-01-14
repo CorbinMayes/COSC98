@@ -1,0 +1,114 @@
+.Header-text {
+  text-align: left;
+  position: absolute;
+  top:-6px; left: 68px;
+  color: white; 
+}
+
+.Header-text:before {
+  background-color: #035e1a;
+  content:'';
+  position: absolute;
+  width: 2000px;
+  height: 75px;
+  margin: auto;
+  z-index: -1;
+  border: 5px solid lightgray;
+  left:-75px;
+}
+
+img#assistant{
+  position:absolute;
+  top: 60vh;
+  left: 20vh;
+}
+.App-logo {
+  position: absolute;
+  top: 200;
+  height: 100vmin;
+  pointer-events: none;
+}
+
+
+.Header-background {
+
+  position: relative;
+  width: 180px;
+  height: 140px;
+  margin: auto;
+  z-index: -1;
+  border: 5px solid lightgray;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.speech-bubble {
+  background-color: #0a861f;
+  border: 2px solid #d4bebe;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 175px;
+  right: 195px;
+}
+
+.speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+
+.bottom {
+  border-color: #0a861f transparent transparent transparent;
+  border-width: 8px 8px 0px 8px;
+  bottom: -8px;
+  right: 20px;
+}
+
+.bottom:after {
+  border-color: #0a861f transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px 7px 0px 7px;
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  right: -8px;    
+}
+
+.App {
+  text-align: center;
+  background-image: url("https://static5.businessinsider.com/image/5d4c85da3e0b7b1d2767b7e3/dartmouth-college-188163.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.triangle {
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  position: absolute;
+  top: 350px;
+  left: 200px;
+}

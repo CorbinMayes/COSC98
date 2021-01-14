@@ -1,0 +1,1463 @@
+{
+  "intents": [
+    {
+      "intent": "What_Extracurriculars",
+      "examples": [
+        {
+          "text": "What Greek life is there at Dartmouth?"
+        },
+        {
+          "text": "What extracurricular activities does Dartmouth offer?"
+        },
+        {
+          "text": "What student groups are available?"
+        },
+        {
+          "text": "What student organizations can I join?"
+        },
+        {
+          "text": "What clubs does Dartmouth have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Are_Prerequisites",
+      "examples": [
+        {
+          "text": "Is it possible to skip prerequisites?"
+        },
+        {
+          "text": "Can prerequisites count for distributive requirements?"
+        },
+        {
+          "text": "Are prerequisites always necessary?"
+        },
+        {
+          "text": "If I use an NRO on a prereq does it count for credit towards the class that needs it?"
+        },
+        {
+          "text": "What are prerequisites?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Many_Credits",
+      "examples": [
+        {
+          "text": "Is there a cap on how many credits I can get?"
+        },
+        {
+          "text": "What are the total possible credits if I didn't take any 4 or 2 class terms?"
+        },
+        {
+          "text": "How many credits is each class worth?"
+        },
+        {
+          "text": "If I take a 2 course term will I have enough credits?"
+        },
+        {
+          "text": "How many credits are needed to graduate?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Contact_Dean",
+      "examples": [
+        {
+          "text": "How can I get in touch with my dean?"
+        },
+        {
+          "text": "What other ways besides email can I get in touch with my dean?"
+        },
+        {
+          "text": "Does my dean do walk-in appointments?"
+        },
+        {
+          "text": "How do I contact my undergraduate dean?"
+        },
+        {
+          "text": "How can I set up a meeting with my academic dean?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Is_Sophomore_Summer",
+      "examples": [
+        {
+          "text": "What is sophomore summer?"
+        },
+        {
+          "text": "Am I required to be enrolled in sophomore summer?"
+        },
+        {
+          "text": "What is the reason for sophomores being on in the summer?"
+        },
+        {
+          "text": "Am I obligated in my D-plan to be on for sophomore summer?"
+        },
+        {
+          "text": "If I have special circumstances, is it possible to not be enrolled in sophomore summer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_To_Drop_Course",
+      "examples": [
+        {
+          "text": "How late can I wait to drop a course?"
+        },
+        {
+          "text": "Do I need instructor permission to drop a course?"
+        },
+        {
+          "text": "When do I get a 'W' for dropping a course?"
+        },
+        {
+          "text": "What is 'W' when I drop a course?"
+        },
+        {
+          "text": "How do I drop a course?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "When_Are_Classes",
+      "examples": [
+        {
+          "text": "What are the scheduled time slots for classes?"
+        },
+        {
+          "text": "What time are classes at?"
+        },
+        {
+          "text": "Are there set periods for when classes can be?"
+        },
+        {
+          "text": "Where can I find what time my classes take place?"
+        },
+        {
+          "text": "What periods are classes in?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Contact_Advisor",
+      "examples": [
+        {
+          "text": "Is there other options besides email to contact my advisor?"
+        },
+        {
+          "text": "How do I contact my faculty advisor?"
+        },
+        {
+          "text": "How would I schedule an appointment to meet my advisor?"
+        },
+        {
+          "text": "What is the best method to get in touch with my advisor?"
+        },
+        {
+          "text": "Am I able to meet my advisor face to face?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Are_Distribs",
+      "examples": [
+        {
+          "text": "If a class has multiple distribs listed can it count for both?"
+        },
+        {
+          "text": "What are world culture requirements?"
+        },
+        {
+          "text": "Can a class meet both a distributive and world culture requirement?"
+        },
+        {
+          "text": "How many distributive requirements are there?"
+        },
+        {
+          "text": "What are distributive requirements?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Is_NRO",
+      "examples": [
+        {
+          "text": "What is an NRO?"
+        },
+        {
+          "text": "How do I add an NRO?"
+        },
+        {
+          "text": "What classes can NRO's be used on?"
+        },
+        {
+          "text": "What is the Non-Recording Option?"
+        },
+        {
+          "text": "Does Dartmouth have Pass/Fail?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Does_Meal_Plan_Work",
+      "examples": [
+        {
+          "text": "What is the difference between DBA and dining dollars?"
+        },
+        {
+          "text": "What is DBA?"
+        },
+        {
+          "text": "What are dining dollars?"
+        },
+        {
+          "text": "What are meal swipes?"
+        },
+        {
+          "text": "How do the meal plans work?"
+        },
+        {
+          "text": "How do I use meal swipes?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Does_The_House_System_Work",
+      "examples": [
+        {
+          "text": "Can I room with people in other houses?"
+        },
+        {
+          "text": "When do I get put into a house?"
+        },
+        {
+          "text": "How do I know which house I am in?"
+        },
+        {
+          "text": "Is the housing system like Harry Potter's?"
+        },
+        {
+          "text": "What is Dartmouth's house system?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Who_Is_My_Dean",
+      "examples": [
+        {
+          "text": "How do I know who my dean is?"
+        },
+        {
+          "text": "Will my dean get in contact with me?"
+        },
+        {
+          "text": "How do I figure out which undergraduate dean is assigned to me?"
+        },
+        {
+          "text": "If I am assigned to a dean, can I get advice from other deans as well?"
+        },
+        {
+          "text": "Who is my academic dean?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Many_Classes",
+      "examples": [
+        {
+          "text": "What is the maximum number of classes?"
+        },
+        {
+          "text": "What is the minimum number of classes?"
+        },
+        {
+          "text": "Can I take more than 5 or more classes?"
+        },
+        {
+          "text": "What is the most classes I can take?"
+        },
+        {
+          "text": "How many classes can I take per term?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Who_Is_My_Advisor",
+      "examples": [
+        {
+          "text": "Is my faculty advisor a member of the teaching staff?"
+        },
+        {
+          "text": "Who is my faculty advisor?"
+        },
+        {
+          "text": "How do I figure out my advisor?"
+        },
+        {
+          "text": "Will my advisor get into contact with me?"
+        },
+        {
+          "text": "Is my advisor related to the field of study I am interested in?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Are_LSA_or_FSP",
+      "examples": [
+        {
+          "text": "How are LSA's different from FSP's?"
+        },
+        {
+          "text": "What does FSP stand for?"
+        },
+        {
+          "text": "What options does Dartmouth have for foreign study?"
+        },
+        {
+          "text": "Does Dartmouth have study abroad programs?"
+        },
+        {
+          "text": "What are LSA's?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "When_Are_Midterms",
+      "examples": [
+        {
+          "text": "When are midterm exams?"
+        },
+        {
+          "text": "Are all midterms at the same time?"
+        },
+        {
+          "text": "What week are midterms?"
+        },
+        {
+          "text": "Is there a specific time that classes have for midterms?"
+        },
+        {
+          "text": "If I have a midterm when will it be?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "How_Long_Is_A_Term",
+      "examples": [
+        {
+          "text": "Are terms 10 weeks long?"
+        },
+        {
+          "text": "Are all terms the same length?"
+        },
+        {
+          "text": "How long is a term?"
+        },
+        {
+          "text": "How long is a quarter?"
+        },
+        {
+          "text": "How many weeks long is each term?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Is_Reading_Period",
+      "examples": [
+        {
+          "text": "What is reading period?"
+        },
+        {
+          "text": "Why are there a few days between the end of classes and finals period?"
+        },
+        {
+          "text": "Are there any classes during reading period?"
+        },
+        {
+          "text": "What is the purpose of reading period?"
+        },
+        {
+          "text": "How long is reading period"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "When_To_Pick_Major",
+      "examples": [
+        {
+          "text": "Is there a time I have to choose my major by?"
+        },
+        {
+          "text": "At what point in my Dartmouth experience am I able to choose my major?"
+        },
+        {
+          "text": "When does major selection open?"
+        },
+        {
+          "text": "When is it possible to pick majors?"
+        },
+        {
+          "text": "When can I select my major?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Can_Change_Major",
+      "examples": [
+        {
+          "text": "Can I change my major?"
+        },
+        {
+          "text": "Is it possible to change my major?"
+        },
+        {
+          "text": "If I have already declared my major, can I change it later on?"
+        },
+        {
+          "text": "If I wanted to change majors, it that allowed?"
+        },
+        {
+          "text": "Can I change my major between different departments?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Where_To_Go_For_Health",
+      "examples": [
+        {
+          "text": "Where do I go to get counseling?"
+        },
+        {
+          "text": "Where do I go to if I have any health concerns?"
+        },
+        {
+          "text": "What should I do if I have any questions regarding health?"
+        },
+        {
+          "text": "If I have any problems regarding my health, where should I contact?"
+        },
+        {
+          "text": "Where is Dartmouth's health services?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Is_Add-Drop",
+      "examples": [
+        {
+          "text": "What is Add/Drop?"
+        },
+        {
+          "text": "Am I able to drop classes after Add/Drop?"
+        },
+        {
+          "text": "How long does Add/Drop last?"
+        },
+        {
+          "text": "When is Add/Drop?"
+        },
+        {
+          "text": "How does Add/Drop work?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Is_Check-in",
+      "examples": [
+        {
+          "text": "How do I check in?"
+        },
+        {
+          "text": "When is check-in?"
+        },
+        {
+          "text": "When can I check in for the term?"
+        },
+        {
+          "text": "What is term check-in?"
+        },
+        {
+          "text": "Where do I go to check in for the term?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "When_Are_Finals",
+      "examples": [
+        {
+          "text": "When are my final exams?"
+        },
+        {
+          "text": "When is finals period?"
+        },
+        {
+          "text": "How many days is finals period"
+        },
+        {
+          "text": "Are all finals at the same time?"
+        },
+        {
+          "text": "How long is finals week?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "What_Is_D-plan",
+      "examples": [
+        {
+          "text": "How do off-campus programs affect my D-plan?"
+        },
+        {
+          "text": "How does the D-plan work?"
+        },
+        {
+          "text": "How should I pick my D-plan?"
+        },
+        {
+          "text": "What is the D-plan?"
+        },
+        {
+          "text": "How does the D-plan affect my Dartmouth experience?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Where_To_Receive_Help",
+      "examples": [
+        {
+          "text": "If I need extra help with class work, who can I ask to get help?"
+        },
+        {
+          "text": "What other help options are there besides tutors?"
+        },
+        {
+          "text": "Where can I get help understanding the material?"
+        },
+        {
+          "text": "I'm struggling in a class, where can I get a tutor?"
+        },
+        {
+          "text": "What options do I have to get help with understanding class material better?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "When_View_Next_Courses",
+      "examples": [
+        {
+          "text": "Can I see next term's classes during the current one?"
+        },
+        {
+          "text": "When is the course timetable released?"
+        },
+        {
+          "text": "When am I able to pick courses?"
+        },
+        {
+          "text": "When will classes for the next quarter be released?"
+        },
+        {
+          "text": "When can I see next term's courses?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "People",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Advisor",
+          "synonyms": [
+            "Faculty advisor",
+            "Undergrad advisor",
+            "Undergraduate Advisor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dean",
+          "synonyms": [
+            "Undergrad Dean",
+            "Undergraduate Dean",
+            "Academic Dean"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Classes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Prerequisite",
+          "synonyms": [
+            "Prereq"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "credit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "World Culture Requirements",
+          "synonyms": [
+            "Culture Requirements"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Distributive Requirements",
+          "synonyms": [
+            "Distribs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Class",
+          "synonyms": [
+            "Course",
+            "Lecture",
+            "Seminar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NRO",
+          "synonyms": [
+            "Non-Recording Option",
+            "Pass/Fail",
+            "Pass Fail"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Major",
+          "synonyms": [
+            "Main focus of study"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "StudentLife",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "D-plan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "House System",
+          "synonyms": [
+            "Houses",
+            "British House System"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Extracurricular",
+          "synonyms": [
+            "Club",
+            "Student Organization",
+            "Greek Life",
+            "Fraternity",
+            "Frat",
+            "Sorority",
+            "Student Group",
+            "Society"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Health",
+          "synonyms": [
+            "Well-being"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Periods",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Finals week",
+          "synonyms": [
+            "Finals period",
+            "Finals"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Add/Drop",
+          "synonyms": [
+            "Class changing period",
+            "Add/Drop period"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Reading period",
+          "synonyms": [
+            "Pre-Examination period"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Term",
+          "synonyms": [
+            "Quarter"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Exams",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Final",
+          "synonyms": [
+            "Finals",
+            "Final exams",
+            "Final tests"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Midterm",
+          "synonyms": [
+            "Midterm exams",
+            "Midterms"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "MealPlan",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Meal plan",
+          "synonyms": [
+            "Dining plan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DBA",
+          "synonyms": [
+            "Dining Dollars"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meal Swipes",
+          "synonyms": [
+            "Swipes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "StudyAbroad",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "FSP",
+          "synonyms": [
+            "Foreign Study Abroad",
+            "Foreign study program",
+            "Foreign studies"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LSA",
+          "synonyms": [
+            "Language Study Abroad",
+            "LSA+"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Who is my dean",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your academic dean will most likely have contacted you through your Dartmouth email. It is also possible to figure out your dean by contacting the undergraduate deans office."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Who_Is_My_Dean",
+      "dialog_node": "node_1_1591093227637",
+      "previous_sibling": "node_10_1591093090275"
+    },
+    {
+      "type": "standard",
+      "title": "What is the house system",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The house system is an organization of the dorms on campus based off of the British house system most commonly associated with Harry Potter. You will be put into your house at the beginning of your freshman year. The freshman dorms are separated by house and each house has its own grouping of dorms as well. In the dorms students may only live with other members of their house. Houses compete against each other for points that are obtained through events and competitions. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Does_The_House_System_Work",
+      "dialog_node": "node_9_1591093943101",
+      "previous_sibling": "node_6_1591093746459"
+    },
+    {
+      "type": "standard",
+      "title": "Need help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you need help with understanding material, there are many options available. The most clear one is going to the professor's or TA's office hours. Professor's typically will love helping students that come to them seeking extra assistance with the material because they wish for you to understand it. TA's are also good because they are directly related to the class and should understand what the goals of it are. Other good options is requesting a tutor from Dartmouth's Tutor Clearinghouse. The tutor is free to the student and will help you with learning the material as well as understand extra work from the class. Another good option are resident fellows from say your house. There is less variety from these but they still hold office hours and are very useful."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Where_To_Receive_Help",
+      "dialog_node": "node_1_1591094930484",
+      "previous_sibling": "node_10_1591094729580"
+    },
+    {
+      "type": "standard",
+      "title": "How many classes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Most often you will be taking 3 classes per term. It is possible to take 2 or 4 course terms but you may only do this 3 and 4 times respectively over your time at Dartmouth."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Many_Classes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1591090075946",
+      "previous_sibling": "node_8_1591085388903"
+    },
+    {
+      "type": "standard",
+      "title": "Who is my advisor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Similar to your academic dean, your faculty advisor will most likely reach out to you through your Dartmouth email. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Who_Is_My_Advisor",
+      "dialog_node": "node_2_1591093492535",
+      "previous_sibling": "node_1_1591093227637"
+    },
+    {
+      "type": "standard",
+      "title": "Extracurriculars",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dartmouth has a wide variety of clubs, student groups, organizations, and extracurriculars. For a coherent list visit: https://engage.dartmouth.edu/organizations"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Extracurriculars",
+      "dialog_node": "node_10_1591095737416",
+      "previous_sibling": "node_1_1591095473879"
+    },
+    {
+      "type": "standard",
+      "title": "Meal plans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Meal plans have various different types of currency and the amount of each depends on the plan you are on. The first is DBA which was renamed to Dining Dollars. This is rather simple as it is simply a currency where 1 Dining Dollar is equivalent to $1. It can be used at any dining option on campus. The other type of currency is the meal swipes. This currency is primarily used to get into '53 commons because a single swipe gets you in. However, at other dining options these swipes have a monetary value and any leftover charge that the swipe does not cover gets charged to the Dining Dollars. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Does_Meal_Plan_Work",
+      "dialog_node": "node_5_1591096413638",
+      "previous_sibling": "node_3_1591096311802"
+    },
+    {
+      "type": "standard",
+      "title": "NRO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The NRO or Non-Recording Option allows students not in academic risk to set a grade limit on a class such that if the student surpasses that limit they would receive a regular grade for the course as well as any distributive or world culture requirements the course meets. If the student receives below the  grade limit but not the grade of an E then it is recorded as a NR where credit is given for completion but it does not count towards any distributive, world culture, or major requirements. This option is allowed 3 times over the course of a student's time at Dartmouth but may not be used more than once per term. The NRO is best used for prerequisites, as these still count for major classes, and classes taken purely out of interest with no interest for a grade. To elect for the use of an NRO, go to your banner student page, click on the Non-Recording Options tile, and follow the instructions from there. There is a list of classes however that have been selected where the NRO is not able to be used. For more information on these specific classes or on NRO's, click the link here: https://dartmouth.smartcatalogiq.com/en/current/orc/Regulations/Undergraduate-Study/Requirements-for-the-Degree-of-Bachelor-of-Arts/Non-Recording-Option"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Is_NRO",
+      "dialog_node": "node_8_1591085388903",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "When to pick major",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dartmouth is unique in that you do not pick your major when you enter the college. After the beginning of your fifth term in residence at Dartmouth, you will be able to create your major plan and declare your major. This plan is just a general road map and can be edited along the way. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#When_To_Pick_Major",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1591090393050",
+      "previous_sibling": "node_10_1591090075946"
+    },
+    {
+      "type": "standard",
+      "title": "Check-in",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check-in is a confirmation from the student that they plan to enroll in this term. It usually requires a confirmation of certain information. This is done through the banner student page. It takes place in the beginning of the term usually for about the first week, check the academic timetable for specifics, but a late submission will result in late fees. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Is_Check-in",
+      "dialog_node": "node_9_1591094452878",
+      "previous_sibling": "node_7_1591094197764"
+    },
+    {
+      "type": "standard",
+      "title": "When are midterms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When midterms are varies from class to class. It depends on the number of midterms too. For more accurate information check your class's syllabus or schedule. Common weeks for midterms are weeks 3-4 and 6-8 if there are two midterms in the class or weeks 5-6 if there is only one."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#When_Are_Midterms",
+      "dialog_node": "node_1_1591092864455",
+      "previous_sibling": "node_1_1591092720487"
+    },
+    {
+      "type": "standard",
+      "title": "Contact Advisor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To contact your faculty advisor, emailing them to talk or set up a meeting is most likely the best strategy."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Contact_Advisor",
+      "dialog_node": "node_7_1591095851546",
+      "previous_sibling": "node_7_1591095851437"
+    },
+    {
+      "type": "standard",
+      "title": "When are Finals",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Final exams take place in a four day period after reading period or six days after classes end. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#When_Are_Finals",
+      "dialog_node": "node_10_1591093090275",
+      "previous_sibling": "node_1_1591092864455"
+    },
+    {
+      "type": "standard",
+      "title": "Change Majors",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just as you can edit your major plan, it is also possible to change your major. You will have to create a new declaration with a new plan that would need to get approved by the new department to do so. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Can_Change_Major",
+      "dialog_node": "node_1_1591093573163",
+      "previous_sibling": "node_2_1591093492535"
+    },
+    {
+      "type": "standard",
+      "title": "D-Plan",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Because of Dartmouth's quarter system, this allows for more flexibility in choosing when to be on or off campus. The D-plan is plan you create that says when you are going to be on-campus or off-campus which allows the college to plan better. There are 3 main options R: on-campus, O: off-campus program, and L: leave term. It gives each student a unique way to build their Dartmouth experience."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Is_D-plan",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1591090823413",
+      "previous_sibling": "node_8_1591090393050"
+    },
+    {
+      "type": "standard",
+      "title": "Credits",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To graduate you need a minimum of 35 credits. Each class is worth 1 credit. If you took 3 classes every on-term you had at Dartmouth you would end up with 36 total credits for reference. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Many_Credits",
+      "dialog_node": "node_1_1591096219119",
+      "previous_sibling": "node_8_1591095859894"
+    },
+    {
+      "type": "standard",
+      "title": "Prerequisites",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Prerequisites are classes that are required to either take other classes or are for a major but don't actually count towards the major itself. These classes can be take for NR credit and still count towards their purpose. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Are_Prerequisites",
+      "dialog_node": "node_3_1591096311802",
+      "previous_sibling": "node_1_1591096219119"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry but I'm not sure I am able to answer that question at the moment. For more information, contact your undergraduate dean or faculty advisor. You may also possibly find the answer on one of Dartmouth's support websites such as the ORC or home.dartmouth.edu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1591096413638",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Add/Drop",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Add/Drop is a period where students can freely add and drop classes to try and find ones that interest them or to get into classes they want. This is for the first two weeks of a term but during the second week instructor permission is required to add a class. For specific dates make sure to check the academic timetable."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Is_Add-Drop",
+      "dialog_node": "node_10_1591094729580",
+      "previous_sibling": "node_9_1591094452878"
+    },
+    {
+      "type": "standard",
+      "title": "LSA/FSP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The LSA (Language Study Abroad) and FSP (Foreign Study Program) are Dartmouth's two different study abroad programs. The LSA focuses on studying the language and culture of the place traveled to while the FSP focuses on \"taking the Dartmouth experience into the heart and home of a field of study\".  These programs take place all around the globe and are excellent way to make your D-plan more unique."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Are_LSA_or_FSP",
+      "dialog_node": "node_1_1591091612871",
+      "previous_sibling": "node_3_1591091383612"
+    },
+    {
+      "type": "standard",
+      "title": "Length of Term",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is some slight variability between the length of terms but all tend to be about 10 weeks long of classes followed by the reading period and finals. For more accurate dates for the current term, check the academic timetable."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Long_Is_A_Term",
+      "dialog_node": "node_1_1591092720487",
+      "previous_sibling": "node_1_1591092600900"
+    },
+    {
+      "type": "standard",
+      "title": "Contact Dean",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To contact your undergraduate dean, email is most likely one of the quickest ways. If you would like to meet in person, you can schedule an appointment online or call the office. There are also periods of walk-in appointments available."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_Contact_Dean",
+      "dialog_node": "node_7_1591095851437",
+      "previous_sibling": "node_10_1591095737416"
+    },
+    {
+      "type": "standard",
+      "title": "Reading Period",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reading period or pre-examination period is a two day period right after the last day of classes where there is no class, assignments or exams allowed. It is primarily a time used for preparing for the final examination period which follows immediately after."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Is_Reading_Period",
+      "dialog_node": "node_1_1591092600900",
+      "previous_sibling": "node_3_1591092241500"
+    },
+    {
+      "type": "standard",
+      "title": "What are Distribs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Distributive & world culture requirements are various areas of study that a student must complete at least one course in depending on the requirement. This to give a more rounded education allowing the student to experience many different areas. Classes that have both a distributive and world culture requirement, however, classes with multiple distributives may only meet one. For more information or the actual list, check out this link: https://students.dartmouth.edu/ugar/faculty/advising/resources/distributive-and-world-culture-requirements"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Are_Distribs",
+      "dialog_node": "node_3_1591092241500",
+      "previous_sibling": "node_1_1591091612871"
+    },
+    {
+      "type": "standard",
+      "title": "Health Concerns",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For any health concerns or questions, contact Dick's House and schedule and appointment. The Dartmouth College health service website also has useful information and tools if needed."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Where_To_Go_For_Health",
+      "dialog_node": "node_6_1591093746459",
+      "previous_sibling": "node_1_1591093573163"
+    },
+    {
+      "type": "standard",
+      "title": "When can classes be viewed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The course timetable for the next term will usually become available a little while after the half-way point of the current term.  Usually class selection will occur about a week later. If you are curious about a specific department or class visit the department website. They will usually have an upcoming class schedule for the entire year where you will be able to see all the classes that department is offering."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#When_View_Next_Courses",
+      "dialog_node": "node_7_1591094197764",
+      "previous_sibling": "node_9_1591093943101"
+    },
+    {
+      "type": "standard",
+      "title": "Withdrawing from a class",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "During the Add/Drop period, students are free to drop courses as they like. For students with 4 courses this is extended to week 6. After this period until 10 class days before the last class, students may withdraw from a class by filling out a withdrawal card with the instructor's signature after initially informing them or the decision. This form must be turned in to the Office of the Registrar and the student will receive a W on their transcript for Withdrew. During the last ten days of classes, the student must petition to withdraw from the course. For more information on this please visit the website of the Office of the Registrar. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#How_To_Drop_Course",
+      "dialog_node": "node_1_1591095473879",
+      "previous_sibling": "node_1_1591094930484"
+    },
+    {
+      "type": "standard",
+      "title": "Class Time Schedule",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Each class has a specific time period that it is in. This schedule can be found online. Classes will contain both their normal hours as well as x-hours which are extra classes that are primarily used for making up missed classes or for extra class time. How much these are used depends on the professor and the class. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#When_Are_Classes",
+      "dialog_node": "node_8_1591095859894",
+      "previous_sibling": "node_7_1591095851546"
+    },
+    {
+      "type": "standard",
+      "title": "Sophomore Summer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is the summer term after your sophomore year at college where sophomores are required to be on-campus and in classes unless granted special permission. It is a unique time that many students highlight as some of the most memorable experiences at Dartmouth."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#What_Is_Sophomore_Summer",
+      "dialog_node": "node_3_1591091383612",
+      "previous_sibling": "node_10_1591090823413"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Please ask me any question that you may have about various Dartmouth systems, features or unique terms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Advisor Skill",
+  "language": "en",
+  "description": "Skill that answers more simple questions for Dartmouth students about the ins and outs of Dartmouth education"
+}

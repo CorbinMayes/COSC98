@@ -1,0 +1,41 @@
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "6260427e-e59d-48a5-8b8e-b0fc2fabca41", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "ec0b0fbd-2c73-414b-91d2-97e6f52b4963", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+  
+  
+<link href="DartmouthAdvisorCSS.css" rel="stylesheet" type="text/css" />
+    <div class="App">
+      <div class="Header-text">
+        <h1>  
+        Dartmouth College Virtual Advisor
+        </h1>
+        <img class="triangle" src="AssistantImage.png" />
+
+          <div class="speech-bubble">
+            <div class="arrow bottom right"></div>
+              <h3>
+                Hello! I'm your virtual Watson advisor! I'm here to answer any quick questions about Dartmouth features you may have.
+                To get started press the chat button in the bottom right corner to ask me something!
+              </h3>
+
+            </div>
+          </div>
+      </div>
+</head>
+    </body>
+</html>
